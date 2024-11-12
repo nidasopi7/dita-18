@@ -1,0 +1,166 @@
+div#translate {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    transform: translate(100px, 50px);
+}
+
+div#rotate {
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    transform: rotate(90deg);
+}
+
+div#scale {
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    transform: rotate(90deg);
+}
+
+div#scaleX {
+    margin-top: 250px;
+    margin-left: 250px;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    transform: scaleX(3);
+}
+
+div#scaleY {
+    margin-top: 250px;
+    margin-left: 250px;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    transform: scaleY(3);
+}
+
+div#skewX {
+    margin-top: 250px;
+    margin-left: 250px;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    transform: skewX(-40deg);
+}
+
+div#skewY {
+    margin-top: 250px;
+    margin-left: 250px;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    transform: skewY(40deg);
+}
+
+div#rotateX {
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    transform: rotateX(130px);
+}
+
+div#rotateY {
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    transform: rotateY(130px);
+}
+
+div#rotateZ {
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    transform: rotateZ(130px);
+}
+
+#example_1 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: background-color 3s, border-radius 10s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 4s;
+}
+
+#example_1:hover {
+    background-color: red;
+    border-radius: 50%;
+}
+
+#speedsters img {
+    transform: scale(1.3);
+    transition: .3s ease-in-out;
+}
+
+#speedsters:hover img {
+    transform: scale(1.3);
+}
+
+#hipsters img {
+    margin-left: 0px;
+    transition: .3s ease-in-out;
+}
+
+#hipsters:hover img {
+    margin-left: 100px;
+}
+
+#shadows img {
+   filter: blur(3px);
+   transition: .3s ease-in-out;
+}
+
+#shadows:hover img {
+   filter: blur(0px);
+}
+
+#engineers img {
+    filter: grayscale(100%);
+    transition: .3s ease-in-out;
+ }
+ 
+ #engineers:hover img {
+    filter: grayscale(0);
+ }
